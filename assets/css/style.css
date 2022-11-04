@@ -1,0 +1,235 @@
+/* Reset browser defaults. */
+* {
+  margin:0;
+  padding:0;  
+  
+}
+
+/*STILL WORKING ON EVERYTHING*/
+
+
+/* Element Selectors */
+body {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color: #fcf9f7;
+  color: #201d1c;
+}
+
+header  {
+  border: #17110d;
+  border-style: solid;
+  padding: 10px;
+  margin: 20px;
+  background-color: lemonchiffon;
+  
+}
+
+footer  {
+  border: #17110d;
+  border-style: solid;
+  padding: 10px;
+  margin: 20px;
+  background-color: lemonchiffon;
+}
+.header {
+  display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.container {
+	max-width: 100%;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: space-between;
+}
+
+
+/*what is rem*/
+.main-nav ul {
+	display: inline;
+  margin: 1rem 0 .5rem;
+	text-align: end;
+}
+.main-nav li {
+	display: inline;
+  text-align: end;
+}
+.main-nav a {
+	display: inline-block;
+	padding: .5rem 1.5rem;
+}
+
+
+.li {
+  align-items: center;
+  padding: 0px 20px; 
+  justify-content: end;
+  /*display: inline;*/
+
+ 
+}
+
+h1,
+h2 {
+  margin: 20px;
+}
+
+main {
+  padding: 100px 0;
+ }
+
+
+
+
+a {
+  text-decoration: none;
+  color: #17110d;
+}
+
+
+
+/*
+footer {
+  justify-content:left;
+  height: 100px;
+  width: 100%;
+  line-height: 60px;
+  background-color: lemonchiffon;
+}
+*/
+
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #4F4846;
+  color: #FDF8F5;    
+}
+
+
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+
+
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 3px solid #DDAF94;
+  background-color:  #bfd2e8;
+}
+
+
+
+
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid #4F4846;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+
+ 
+/* Class Selectors */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+
+
+/* personlize */
+/* Cards are split into two columns at 992px or smaller */
+/*
+@media screen and (max-width: 992px) {
+  .card {
+    width: 50%;
+  }
+  /* Change the header color */
+ 
+ /*
+  header {
+    background: #772014;
+  }
+}
+
+/* Cards are stacked on top of each other at 768px or smaller */
+/*
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+  /* Change the headear color */
+  /*
+  header {
+    background: #8ac4ff;
+  }
+}
+*/
+
+/*
+
+<!--
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+          }
+
+          .column {
+            display: flex;
+            flex-direction: column
+          }
+          .grid {
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(12, 1fr);
+          }
+
+          .linear-gradient-background {
+            background-image: linear-gradient(
+              rgba(232, 102, 236, 0.3) 0%,
+              rgba(232, 102, 236, 0.6) 100%
+            );
+          }
+
+          .code-card .card-header {
+            border-radius: 8px;
+            transition: all 0.5s ease-in-out;
+          }
+          
+          .code-card:hover,
+          .code-card:hover .card-header {
+            box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+          }
+
+          .card-header {
+            position: relative;
+            margin-top: -20px;
+          }
+-->
+
+*/
