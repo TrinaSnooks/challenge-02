@@ -5,8 +5,6 @@
   
 }
 
-/*STILL WORKING ON EVERYTHING*/
-
 
 /* Element Selectors */
 body {
@@ -14,15 +12,30 @@ body {
   font-size: 20px;
   background-color: #fcf9f7;
   color: #201d1c;
+  border: #17110d;
+  border-style: solid;
+  padding: 10px;
+  margin: 10px;
 }
 
 header  {
   border: #17110d;
   border-style: solid;
+  border: 10px;
   padding: 10px;
+  min-height: 50px;
   margin: 20px;
   background-color: lemonchiffon;
   
+}
+
+.header {
+  display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+  border: #17110d;
+  border-style: solid;
+  justify-content:space-evenly
 }
 
 footer  {
@@ -30,64 +43,70 @@ footer  {
   border-style: solid;
   padding: 10px;
   margin: 20px;
+  height: 40px;
+  width: 100%;
+  /*line-height: 60px;*/
   background-color: lemonchiffon;
 }
-.header {
-  display: flex;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
+
+
+
+
+
 
 .container {
-	max-width: 100%;
+	display: flex;
+ /* max-width: 100%;*/
 	padding: 10px;
-	margin: 0 auto;
-}
-
-.container {
-  display: flex;
+	margin: 10px;
   flex-direction: row;
   align-content: flex-end;
   justify-content: space-between;
+  
 }
 
 
 /*what is rem*/
+
 .main-nav ul {
-	display: inline;
+	display: flex
   margin: 1rem 0 .5rem;
-	text-align: end;
+	display: inline;
+  padding: 10px;
 }
 .main-nav li {
 	display: inline;
-  text-align: end;
+  /*text-align: end;*/
+  /*border: #17110d;
+  border-style: solid;
+  background-color: aqua;*/
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+  justify-content: space-between;
 }
+
+
+
 .main-nav a {
 	display: inline-block;
 	padding: .5rem 1.5rem;
 }
 
 
-.li {
-  align-items: center;
-  padding: 0px 20px; 
-  justify-content: end;
-  /*display: inline;*/
-
- 
-}
-
 h1,
 h2 {
   margin: 20px;
+
 }
 
 main {
   padding: 100px 0;
  }
 
-
+body {
+  font-family: Garamond, serif;
+}
 
 
 a {
@@ -95,26 +114,6 @@ a {
   color: #17110d;
 }
 
-
-
-/*
-footer {
-  justify-content:left;
-  height: 100px;
-  width: 100%;
-  line-height: 60px;
-  background-color: lemonchiffon;
-}
-*/
-
-
-footer {
-  position: absolute;
-  margin-top: 0;
-  bottom: 0;
-  border-bottom: 10px solid #4F4846;
-  color: #FDF8F5;    
-}
 
 
 
@@ -131,23 +130,20 @@ section {
   padding: 20px 10px 40px 10px;
   border-top: 3px solid #DDAF94;
   background-color:  #bfd2e8;
+  display: flex;
+  flex-direction: row;
 }
 
 
 
 
-input, 
-textarea {
-  box-sizing: border-box;
-  width: 300px;
-  border: 1px solid #4F4846;
-}
 
+/*
 textarea {
   vertical-align: top;
   height: 60px;
 }
-  
+ */ 
 
  
 /* Class Selectors */
