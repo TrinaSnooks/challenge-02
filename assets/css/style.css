@@ -6,7 +6,7 @@
 }
 
 
-/* Element Selectors */
+
 body {
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
@@ -64,7 +64,11 @@ footer  {
   align-content: center;
  }
 
+.border {
+  border: 40px;
+  border-color: black;
 
+}
 
 .container {
 	display: flex;
@@ -96,7 +100,7 @@ footer  {
  border-color: #201d1c;
 }
 
-/*what is rem*/
+
 
 .main-nav ul {
 	display: flex
@@ -119,7 +123,8 @@ footer  {
 
 .main-nav a {
 	display: inline-block;
-	padding: .5rem 1.5rem;
+	padding: 5px;
+  margin: 10px;
 }
 
 .about-me {
@@ -163,29 +168,20 @@ img {
   margin: 20px auto;
 }
 
-/*removed.  use flexbox instead
-.grid {
-  display: grid;
-  width: 100%;
-  grid-template-columns: ;
-}
-*/
-
-
 
  
-/* Class Selectors */
+/
 .text-center {
   text-align: center;
 }
 
-.text-right {
-  text-align: right;
+.text-left {
+  text-align: left;
 }
 
 
 
-/* personlize */
+
 /* Cards are split into two columns at 992px or smaller */
 
 @media screen and (max-width: 992px) {
@@ -215,13 +211,13 @@ img {
             flex-direction: column
           }
 
-          /*
+          
           .grid {
             display: grid;
             width: 100%;
             grid-template-columns: repeat(12, 1fr);
           }
-          */
+          
           
           .linear-gradient-background {
             background-image: linear-gradient(
